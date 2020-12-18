@@ -3,10 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-
 }
-
-
 main.main{
     width: 100%;
     height: 100vh;
@@ -15,17 +12,12 @@ main.main{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
 }
-
-
 main.main>h3{
     font-size: x-large;
     color: rgb(0, 60, 121);
     margin-bottom: 40px;
-
 }
-
 main.main> .main_box{
     width: 1280px;
     height: 500px;
@@ -33,7 +25,6 @@ main.main> .main_box{
     border-radius: 10px;
     position: relative;
     display: flex;
-
 }
 main.main> .main_box .box{
     width: 20%;
@@ -44,24 +35,15 @@ main.main> .main_box .box{
     height: 100%;
     background-color: rgb(82, 12, 0);
 }
-
 main.main> .main_box .box:hover:nth-of-type(n){
     width: 40% !important;
 }
-
-
-
-
-
-
-
-
+/* Dance Box */
 main.main> .main_box .dance{
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     background-color: #E74292;
 }
-
 main.main> .main_box .dance>img.dancing-img{
     z-index: 20;
     position: absolute;
@@ -70,7 +52,6 @@ main.main> .main_box .dance>img.dancing-img{
     top: 50px;
     background-position: center center/cover;
 }
-
 main.main> .main_box .dance:hover img.dancing-img{
     z-index: 20;
     position: absolute;
@@ -79,130 +60,74 @@ main.main> .main_box .dance:hover img.dancing-img{
     top: 50px;
     background-position: center center/cover;
 }
-
-
-
-
-
-
-
 main.main> .main_box .yoga{
-
     background-color: #74B9FF;
 }
-
 main.main> .main_box .yoga>img.yoga-img{
     width: 350px;
     position: absolute;
     bottom: -30px;
     transition: all 0.5s ease;
-
 }
-
 main.main> .main_box .yoga:hover img.yoga-img{
     width: 350px;
     position: absolute;
     bottom: -30px;
     margin-left: 50px;
-
 }
-
-
-
-
-
-
 main.main> .main_box .modal{
     background-color: #DAE0E2;
 }
-
 main.main> .main_box .modal>h3{
     color: #2F363F;
 }
-
-
 main.main> .main_box .modal>img.model-img{
     width: 300px;
     position: absolute;
     transition: all 0.5s ease;
     bottom: 0;
 }
-
 main.main> .main_box .modal:hover img.model-img{
     width: 300px;
     position: absolute;
     bottom: 0;
     margin-left: 60px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 main.main> .main_box .gym{
     background-color: #2F363F;
 }
-
-
 main.main> .main_box .gym>img.gym-img{
     width: 350px;
     position: absolute;
     bottom: 0;
     transition: all 0.5s ease;
 }
-
-
 main.main> .main_box .gym:hover img.gym-img{
     width: 350px;
     position: absolute;
     bottom: 0;
     margin-left: 40px;
 }
-
-
-
-
-
-
-
-
-
 main.main> .main_box .showbiz{
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
     background-color: rgb(232 228 231);
 }
-
-
-
 main.main> .main_box .showbiz>h3{
     color: #E74292;
 }
-
-
-
 main.main> .main_box .showbiz>img.showbiz-img{
     width: 350px;
     position: absolute;
     bottom: -60px;
     transition: all 0.5s ease;
 }
-
 main.main> .main_box .showbiz:hover img.showbiz-img{
     width: 350px;
     position: absolute;
     bottom: -60px;
     margin-left: 50px;
 }
-
-
 .box-heading{
     margin: 20px 0;
     font-size: x-large;
